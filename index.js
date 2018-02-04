@@ -171,13 +171,13 @@ Sky.prototype._default = {
   },
   init: function() {
     // add a sun on the bottom
-    this.paint('bottom', this.sun);
+    // this.paint('bottom', this.sun);
     // add some stars
     this.paint(['top', 'left', 'right', 'front', 'back'], this.stars, 500);
     // add full moon to the top
-    this.paint('top', this.moon, 0);
+    // this.paint('top', this.moon, 0);
     // no sunlight at startup
-    this.sunlight.intensity = 0;
+    // this.sunlight.intensity = 0;
   },
   day: 0,
   moonCycle: 29.5305882,
